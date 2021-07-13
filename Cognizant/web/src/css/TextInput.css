@@ -1,0 +1,36 @@
+.TextInput-label {
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+}
+
+.TextInput-label label {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.TextInput-input {
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    font-size: 1rem;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+}
+
+.TextInput-input:focus {
+    border-color: #3498db;
+}
+
+.TextInput.fluid .TextInput-input {
+    width: 100%;
+}
+
+.TextInput.error .TextInput-input {
+    border-color: #e74c3c;
+}
+
+.TextInput.error .TextInput-label {
+    color: #e74c3c;
+}

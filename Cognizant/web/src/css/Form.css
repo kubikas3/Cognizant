@@ -1,0 +1,12 @@
+.Form {
+    position: relative;
+    margin: 0;
+}
+
+.Form-title {
+    margin-top: 0;
+}
+
+.Form-Field {
+    margin-bottom: 1rem;
+}

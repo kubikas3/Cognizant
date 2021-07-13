@@ -1,0 +1,39 @@
+.Button.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Button-button {
+    font-weight: 700;
+    background-color: #3498db;
+    color: #ecf0f1;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.1s linear all;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Button.secondary .Button-button {
+    border: 1px solid #ecf0f1;
+    background-color: #ecf0f1;
+    color: black;
+}
+
+.Button.tertiary .Button-button {
+    background-color: transparent;
+    border: 1px solid #ecf0f1;
+    color: #ecf0f1;
+}
+
+.Button.tertiary:active .Button-button {
+    background-color: #bdc3c722;
+}
+
+.Button.fluid .Button-button {
+    width: 100%;
+}

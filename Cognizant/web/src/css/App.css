@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+
+.App-Header {
+  background-color: #3498db;
+  color: #ecf0f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.App-Header-title {
+  margin: 0;
+  padding: 0;
+}
+
+.App-Content {
+  flex: 1 1 auto;
+  background: #1488CC;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2B32B2, #1488CC);
+  background: white;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow: auto;
+}
